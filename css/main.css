@@ -1,0 +1,77 @@
+/* line 2, ../scss/main.scss */
+.header-banner .header-image {
+  background-image: url("https://s3-ap-southeast-2.amazonaws.com/racevic.static/2017-01-01/flemington/photofinishes/race-2.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 10, ../scss/main.scss */
+.header-banner .header-text {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 0;
+}
+
+/* line 15, ../scss/main.scss */
+.header-banner .header-text .circle-white {
+  display: inline-block;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  color: #000;
+  font-size: 2em;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* line 28, ../scss/main.scss */
+.header-banner .header-image {
+  background-image: url("https://s3-ap-southeast-2.amazonaws.com/racevic.static/2017-01-01/flemington/photofinishes/race-2.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 250px;
+  position: relative;
+}
+
+/* line 36, ../scss/main.scss */
+.header-image .search-button {
+  font-family: "Glyphicons Halflings";
+  border: 1px solid red;
+  text-align: left;
+  position: absolute;
+  bottom: 10px;
+}
+
+/* line 44, ../scss/main.scss */
+.race-results {
+  padding: 10px 0;
+}
+
+/* line 47, ../scss/main.scss */
+.race-results .race-result-header {
+  font-size: 1.2em;
+}
+
+/* line 50, ../scss/main.scss */
+.race-results .race-result-item-thumbnail {
+  float: left;
+  display: inline-block;
+  width: 40px;
+  height: auto;
+}
+
+/* line 56, ../scss/main.scss */
+.race-results .race-result-item-thumbnail > img {
+  width: 100%;
+  height: auto;
+}
+
+/* line 60, ../scss/main.scss */
+.race-results .race-result-item {
+  border-bottom: 1px solid #ddd;
+}

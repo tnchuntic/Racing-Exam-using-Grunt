@@ -1,0 +1,29 @@
+{
+  "name": "tnc_boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "thomas chuntic",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-compass": "^1.1.1",
+    "grunt-contrib-compress": "^1.4.3",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^2.2.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-uglify": "^3.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-modernizr": "^1.0.2"
+  },
+  "dependencies": {
+    "angular": "^1.6.4",
+    "bootstrap-sass": "^3.3.7",
+    "handlebars": "^4.0.10",
+    "jquery": "^3.2.1"
+  }
+}
